@@ -1,0 +1,4 @@
+from nltk import word_tokenize,sent_tokenize
+print("tokens printing")
+print(word_tokenize(sentence))
+print(sent_tokenize(sentence))
