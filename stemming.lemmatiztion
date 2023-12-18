@@ -1,0 +1,6 @@
+nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
+from nltk.stem import PorterStemmer
+ps= PorterStemmer()
+for w in tokenized_text:
+print(w,":",ps.stem(w))
