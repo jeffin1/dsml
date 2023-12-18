@@ -1,0 +1,4 @@
+from nltk import pos_tag
+tokenized_text=word_tokenize(sentence)
+tags=tokens_tag=pos_tag(tokenized_text)
+print(tags)
